@@ -1,0 +1,26 @@
+::-webkit-scrollbar{
+    width: 8px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(225, 226, 229, 1);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgba(169, 177, 194, 1);
+    cursor: grab;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(133, 141, 158, 1);
+}
+    /* Microsoft Edge and Internet Explorer */
+::-ms-scrollbar{
+    width: 8px;
+}
+::-ms-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgba(169, 177, 194, 1);
+    cursor: grab;
+}
+::-ms-scrollbar-thumb:hover{
+    background-color: rgba(133, 141, 158, 1);
+}
